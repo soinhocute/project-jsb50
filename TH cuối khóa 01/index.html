@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,700|Roboto+Condensed:700">
+    <script src="./web.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Open+Sans:ital,wght@1,300;1,500&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body id="body">
+
+    <div class="header">
+        <div class="header_nav">
+            <div>
+                <img class="logo" src="http://ingenioushubs.com/Allhallows/images/header-logo.png" alt="">
+            </div>
+            <ul class="a">
+                <li class="a1">
+                    <a href="#"> Trang Chủ </a>
+                </li>
+                <li class="a1">
+                    <a href="./nd con01.html"> Trò Chơi </a>
+                </li>
+                <li class="a1">
+                    <a href="./đồ chơi.html"> Đồ Chơi </a>
+                </li>
+                <li class="a1">
+                    <a href="./ndcon 1-01.html"> Thông Tin </a>
+                </li>
+                <li class="a1">
+                    <a href="#"> MORE </a>
+                </li>
+            </ul>
+            <div id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+    *********
+    <div class="side-bar">
+        <div class="sbcc">
+            <div class="">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div>
+                <a href="">Đăng nhập</a>
+                <a href="">đăng kí</a>
+            </div>
+        </div>
+        <div class="ccc">
+            <div class="sbcc abcd">
+                <i class="fa-sharp fa-solid fa-house"></i>
+                <p>Trang chủ</p>
+            </div>
+            <div class="sbcc abcd">
+                <i class="fa-sharp fa-solid fa-wrench"></i>
+                <p>Công cụ</p>
+            </div>
+            <div class="sbcc abcd">
+                <i class="fa-solid fa-gear"></i>
+                <p>Công cụ</p>
+            </div>
+        </div>
+
+        <button class="button" >
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+    <script>
+        var isOpen = false
+        let bton = document.querySelector("button")
+        let sidebar = document.querySelector(".side-bar")
+        bton.addEventListener("click", function () {
+            if (isOpen === false) {
+                sidebar.classList.add("open")
+                isOpen = true
+            }
+            else {
+                sidebar.classList.remove("open")
+                isOpen = false
+            }
+        })
+    </script>
+
+    *********
+    <div class="content">
+        <div class="content-img">
+            <img class="background-img" src="http://ingenioushubs.com/Allhallows/images/Banner.png" alt="">
+        </div>
+
+        <div class="content-item">
+            <h2 class="content-item1">31 tháng 10 năm 2022</h2>
+            <p class="content-item2">Tiệc Halloween</p>
+            <p class="content-item3">Tên gọi Halloween hay Hallowe'en có niên đại từ khoảng năm 1745 và có nguồn gốc
+                Kitô giáo. Từ "Halloween" có nghĩa là buổi tối các thánh. Đây là viết tắt từ thuật từ tiếng Scotland
+                Allhallow-even hay Hallow-e'en, tức All Hallows' Eve trong tiếng Anh (nghĩa là buổi tối vọng Lễ Chư
+                Thánh).
+            </p>
+            <button class="content-item-button">Tìm hiểu thêm </button>
+        </div>
+    </div>
+    *******
+    <div class="nd1">
+        <h2 class="nd1-item1 tieu-de">Về bữa tiệc</h2>
+        <p class="nd1-item2">Halloween được diễn ra ở 1 số tổ quốc vào ngày 31 tháng 10 hàng 5. Đây là thời khắc để hoài
+            tưởng các vị Thánh (hallows) và những người đã khuất. Các hoạt động Halloween bao gồm khắc bí ngô, kể những
+            câu chuyện kinh rợn và xem phim kinh dị
+        </p>
+        <br>
+        <p class="nd1-item3">Hoạt động thú vị nhất trong Halloween là lúc bọn trẻ đi chơi (Trick or Treat) và tổ
+            chức tiệc hóa trang. Trong hoạt động này, các bạn bé sẽ mặc nhiều y phục không giống nhau. Sau đấy, họ đi
+            từng nhà gõ cửa những người trong khu phố. Các gia đình đã sẵn sàng rất nhiều đồ ngọt, bánh kẹo để chia cho
+            chúng. Ngoài ra, trẻ sẽ gõ cửa và nói “Trick or Treat”. Khi bọn trẻ thu được 1 viên kẹo hoặc 1 món đồ ngọt,
+            chúng sẽ rất vui. Mặt khác, nếu ko thu được gì, chúng sẽ bày ra 1 số chiêu trò.
+        </p>
+        <br>
+        <br>
+        <br>
+        <button class="nd1-item4-button">
+            <a href="./ndcon 1-01.html">Know more</a>
+        </button>
+    </div>
+    ****
+    <h1 style="color: white; width: 300px; margin: auto;">Nghệ sĩ Halloween</h1>
+    ****
+    <div class="nd2">
+        <div class="nd2-nav1">
+            <div class="nd2-item-img">
+                <img src="http://ingenioushubs.com/Allhallows/images/artist-image.png" alt="">
+            </div>
+            <div class="nd2-nav2">
+                <h2 class="nd2-item-h2 aaa">DJ Remerson Huke</h2>
+                <h3 class="nd2-item-h3 aaa">Lead DJ On Deadpoll</h3>
+                <p class="nd2-item-p aaa">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore.
+                </p>
+                <div class="nd2-item-icon" style="font-size: 20px">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-behance"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="nd2-nav1">
+            <div class="nd2-item-img">
+                <img src="http://ingenioushubs.com/Allhallows/images/artist-image.png" alt="">
+            </div>
+
+            <div class="nd2-nav2">
+                <h2 class="nd2-item-h2 aaa">DJ Remerson Huke</h2>
+                <h3 class="nd2-item-h3 aaa">Lead DJ On Deadpoll</h3>
+                <p class="nd2-item-p aaa">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore.
+                </p>
+                <div class="nd2-item-icon" style="font-size: 20px">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-behance"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    *********
+    <div class="nd3">
+        <div class="nd3-item1">
+            <div class="a11 a2">
+                <div class="b1 b2">
+                    <div class="journey-item">
+                        <div class="overlay">
+                            <div class="nd2-item-icon" style="font-size: 20px">
+                                <p class="pa">Nhân viên: Phù Thủy</p>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-behance"></i>
+                            </div>
+                        </div>
+                        <img src="http://ingenioushubs.com/Allhallows/images/gallery-image-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nd3-item2">
+            <div class="a11 a2">
+                <div class="b1 b2">
+                    <div class="journey-item">
+                        <div class="overlay">
+                            <div class="nd2-item-icon" style="font-size: 20px">
+                                <p class="pa">Nhân viên: Người Xương</p>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-behance"></i>
+                            </div>
+                        </div>
+                        <img src="http://ingenioushubs.com/Allhallows/images/gallery-image-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nd3-item3">
+            <div class="a11 a2">
+                <div class="b1 b2">
+                    <div class="journey-item">
+                        <div class="overlay">
+                            <div class="nd2-item-icon" style="font-size: 20px">
+                                <p class="pa">Nhân viên: Ma Cà rồng</p>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-behance"></i>
+                            </div>
+                        </div>
+                        <img src="data:image/jpeg;base64,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"
+                            alt="" style="width: 300px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nd3-item4">
+            <div class="a11 a2">
+                <div class="b1 b2">
+                    <div class="journey-item">
+                        <div class="overlay">
+                            <div class="nd2-item-icon" style="font-size: 20px">
+                                <p class="pa">Nhân Viên: Người Sói</p>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-behance"></i>
+                            </div>
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjHvtpwxkq6aeT0KsZ54aNiXkD6JVkI-ZdqA&usqp=CAU"
+                            alt="" style="width: 292px" ; height="399px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="nd5-item1">Quản lí</h2>
+    <div class="nd5">
+        <div class="nd5-item2">
+            <img class="nd5-item2-img" src="http://ingenioushubs.com/Allhallows/images/feedback-image-1.png" alt="">
+            <p class="nd5-item2-01 item-01">Quản lí: Xác Ướp</p>
+            <!-- <p class="nd5-item2-02 item-02"></p>
+            <p class="nd5-item2-03 item-03">Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusmod
+                Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation
+                Ullamco Laboris.
+            </p> -->
+        </div>
+
+        <div class="nd5-item3">
+            <img src="http://ingenioushubs.com/Allhallows/images/feedback-image-2.png" alt="">
+            <p class="nd5-item3-01 item-01">Quản lí: Bí ngô</p>
+            <!-- <p class="nd5-item3-02 item-02"></p>
+            <p class="nd5-item3-03 item-03">Halloween or Hallowe'en (a contraction of All Hallows' Evening) also known
+                as
+                Allhalloween, All Hallows'
+                Eve or All Saints' Eve is a celebration observed in a number of countries on 31 October.
+            </p> -->
+        </div>
+    </div>
+
+    <!-- <div class="nd6">
+        <img class="nd6-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqCzOGgg0SsLRxL7BXt3IydOA9igdYv49OKA&usqp=CAU" alt="">
+        <div class="nd6-item1">
+            <div class="ticket"> -- $0
+                <img src="http://ingenioushubs.com/Allhallows/images/ticket-image-1.jpg" class="nd6-img" alt>
+                <div class="ticket01">
+                    <h2>Single Entry</h2>
+                    <h5>$99.00</h5>
+                    <ul>
+                        <li>Single Entry</li>
+                        <li>only one person</li>
+                        <li>2 hours Limitation</li>
+                    </ul>
+
+                    <div class="">
+                        <a href="#" class data-toggle="modal" data-target="#exampleModal2"> Get Ticket</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="form">
+        <h2>Tham gia bữa tiệc</h2>
+        <div class="form-input">
+            <form action="">
+                <input class="tt" type="text" placeholder="Họ và tên">
+                <input class="tt" type="text" placeholder="Số điện thoại">
+            </form>
+            <form action="">
+                <input class="tt" type="text" placeholder="Email">
+                <select name="" id="" class="tt">
+                    <option value="tk sfamily">Ticket family</option>
+                    <option value="tk single">Ticket single</option>
+                    <option value="tk couple">Ticket couple</option>
+                    <option value="tk group">Ticket group</option>
+                </select>
+            </form>
+        </div>
+        <button class="form-button">
+            <a href="#">Gửi đi</a>
+        </button>
+    </div>
+
+    <div class="subscribe"></div>
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- <div style="background-color:black;color:white;padding:30px">Scroll Down</div>
+    <div style="background-color:lightgrey;padding:30px 30px 2500px">This example demonstrates how to create a "scroll to top" button that becomes visible  -->
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <div class="last">
+        <div class="footer">
+            <h1>gửi thư</h1>
+            <input class="btnm" type="text" placeholder="nhập tin nhắn của bạn">
+            <button>subscribe</button>
+        </div>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-behance"></i>
+        </div>
+    </div>
+</body>
+
+</html>

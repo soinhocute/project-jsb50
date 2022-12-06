@@ -1,0 +1,24 @@
+
+.all {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+.content {
+    width: 300px;
+    height: 480px;
+    border: 3px solid gray;
+    padding: 2px;
+    border-radius: 8px;
+}
+img {
+    width: 300px;
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
